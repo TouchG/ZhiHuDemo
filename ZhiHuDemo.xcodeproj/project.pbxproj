@@ -13,7 +13,6 @@
 		A7B1EEED188E70D800F05F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B1EEEB188E70D800F05F30 /* InfoPlist.strings */; };
 		A7B1EEEF188E70D800F05F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1EEEE188E70D800F05F30 /* main.m */; };
 		A7B1EEF3188E70D800F05F30 /* QFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1EEF2188E70D800F05F30 /* QFAppDelegate.m */; };
-		A7B1EEF6188E70D800F05F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B1EEF4188E70D800F05F30 /* Main.storyboard */; };
 		A7B1EEF9188E70D800F05F30 /* QFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1EEF8188E70D800F05F30 /* QFViewController.m */; };
 		A7B1EEFB188E70D800F05F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B1EEFA188E70D800F05F30 /* Images.xcassets */; };
 		A7B1EF02188E70D800F05F30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1EF01188E70D800F05F30 /* XCTest.framework */; };
@@ -44,7 +43,6 @@
 		A7B1EEF0188E70D800F05F30 /* ZhiHuDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhiHuDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A7B1EEF1188E70D800F05F30 /* QFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFAppDelegate.h; sourceTree = "<group>"; };
 		A7B1EEF2188E70D800F05F30 /* QFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFAppDelegate.m; sourceTree = "<group>"; };
-		A7B1EEF5188E70D800F05F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7B1EEF7188E70D800F05F30 /* QFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFViewController.h; sourceTree = "<group>"; };
 		A7B1EEF8188E70D800F05F30 /* QFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFViewController.m; sourceTree = "<group>"; };
 		A7B1EEFA188E70D800F05F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			children = (
 				A7B1EEF1188E70D800F05F30 /* QFAppDelegate.h */,
 				A7B1EEF2188E70D800F05F30 /* QFAppDelegate.m */,
-				A7B1EEF4188E70D800F05F30 /* Main.storyboard */,
 				A7B1EEF7188E70D800F05F30 /* QFViewController.h */,
 				A7B1EEF8188E70D800F05F30 /* QFViewController.m */,
 				A7B1EEFA188E70D800F05F30 /* Images.xcassets */,
@@ -231,7 +228,6 @@
 			files = (
 				A7B1EEFB188E70D800F05F30 /* Images.xcassets in Resources */,
 				A7B1EEED188E70D800F05F30 /* InfoPlist.strings in Resources */,
-				A7B1EEF6188E70D800F05F30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +277,6 @@
 				A7B1EEEC188E70D800F05F30 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A7B1EEF4188E70D800F05F30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7B1EEF5188E70D800F05F30 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A7B1EF0A188E70D800F05F30 /* InfoPlist.strings */ = {
@@ -461,6 +449,7 @@
 				A7B1EF13188E70D800F05F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7B1EF14188E70D800F05F30 /* Build configuration list for PBXNativeTarget "ZhiHuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +458,7 @@
 				A7B1EF16188E70D800F05F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
