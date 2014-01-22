@@ -8,7 +8,11 @@
 
 #import "QFViewController.h"
 
-@interface QFViewController ()
+@interface QFViewController ()<UITableViewDataSource, UITableViewDelegate>
+{
+    UITableView     *_mainTable;
+    NSMutableArray  *_newsArray;
+}
 
 @end
 
@@ -19,13 +23,41 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = [UIColor colorWithRed:0.976 green:1.000 blue:0.347 alpha:1.000];
+    _mainTable = [[UITableView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:_mainTable];
+    
+    _mainTable.dataSource = self;
+    _mainTable.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark- 
+#pragma mark UITableView DataSource
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    
 }
 
 @end
