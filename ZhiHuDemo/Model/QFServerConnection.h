@@ -13,8 +13,6 @@
     BOOL    _isAllowedDownLoadImages;
 }
 
-- (NSDictionary *)getLatestNews;
-- (NSDictionary *)getBeforeNews;
 - (NSDictionary *)getNewsAtDate:(NSString *)date;
 
 @end
