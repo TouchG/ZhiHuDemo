@@ -10,7 +10,7 @@
 
 @interface QFServerConnection : NSObject
 {
-    BOOL    isAllowedDownLoadImages;
+    BOOL    _isAllowedDownLoadImages;
 }
 
 - (NSDictionary *)getLatestNews;

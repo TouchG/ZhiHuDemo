@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77ED3DD3A9564E5892733D06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A0731FEE324257ABD5D3B6 /* libPods.a */; };
+		A711CF2318910A3200D8478D /* QFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A711CF2218910A3200D8478D /* QFDetailViewController.m */; };
 		A76FF63F188FB31100D38B7C /* QFServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FF63E188FB31100D38B7C /* QFServerConnection.m */; };
 		A7B1EEE3188E70D800F05F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1EEE2188E70D800F05F30 /* Foundation.framework */; };
 		A7B1EEE5188E70D800F05F30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1EEE4188E70D800F05F30 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		29A0731FEE324257ABD5D3B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711CF2118910A3200D8478D /* QFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDetailViewController.h; sourceTree = "<group>"; };
+		A711CF2218910A3200D8478D /* QFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDetailViewController.m; sourceTree = "<group>"; };
 		A76FF63D188FB31100D38B7C /* QFServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFServerConnection.h; sourceTree = "<group>"; };
 		A76FF63E188FB31100D38B7C /* QFServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFServerConnection.m; sourceTree = "<group>"; };
 		A76FF641188FCBF800D38B7C /* VersionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionConfig.h; sourceTree = "<group>"; };
@@ -85,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A716FAA818A5FBC200166375 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		A76FF63C188FB20D00D38B7C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +147,15 @@
 		A7B1EEE8188E70D800F05F30 /* ZhiHuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A716FAA818A5FBC200166375 /* Resource */,
 				A76FF640188FCA7D00D38B7C /* Utilities */,
 				A76FF63C188FB20D00D38B7C /* Model */,
 				A7B1EEF1188E70D800F05F30 /* QFAppDelegate.h */,
 				A7B1EEF2188E70D800F05F30 /* QFAppDelegate.m */,
 				A7B1EEF7188E70D800F05F30 /* QFViewController.h */,
 				A7B1EEF8188E70D800F05F30 /* QFViewController.m */,
+				A711CF2118910A3200D8478D /* QFDetailViewController.h */,
+				A711CF2218910A3200D8478D /* QFDetailViewController.m */,
 				A7B1EEFA188E70D800F05F30 /* Images.xcassets */,
 				A7B1EEE9188E70D800F05F30 /* Supporting Files */,
 			);
@@ -311,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B1EEF9188E70D800F05F30 /* QFViewController.m in Sources */,
+				A711CF2318910A3200D8478D /* QFDetailViewController.m in Sources */,
 				A76FF63F188FB31100D38B7C /* QFServerConnection.m in Sources */,
 				A7B1EEEF188E70D800F05F30 /* main.m in Sources */,
 				A7B1EEF3188E70D800F05F30 /* QFAppDelegate.m in Sources */,

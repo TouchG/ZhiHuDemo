@@ -11,12 +11,17 @@ PODS:
   - ASIHTTPRequest/S3 (1.8.1):
     - Reachability
   - Reachability (3.1.1)
+  - SDWebImage (3.5.2):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5.2)
 
 DEPENDENCIES:
   - ASIHTTPRequest (~> 1.8.1)
+  - SDWebImage (~> 3.5.2)
 
 SPEC CHECKSUMS:
   ASIHTTPRequest: 162783e0cd71bdd3ff1ceed0cd5fa9505e0116a8
   Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SDWebImage: fe7ce01ae4e0a884d168f59c9dd82d35baf8429e
 
 COCOAPODS: 0.29.0
