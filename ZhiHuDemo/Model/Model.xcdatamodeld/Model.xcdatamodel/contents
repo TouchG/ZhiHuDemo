@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Abstract" representedClassName="Abstract" syncable="YES">
+    <entity name="GroupNews" representedClassName="GroupNews" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="display_date" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="news" optional="YES" attributeType="Binary" syncable="YES"/>
-        <relationship name="relationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="News" syncable="YES"/>
+        <relationship name="news" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="News" inverseName="dateGroup" inverseEntity="News" syncable="YES"/>
     </entity>
     <entity name="News" representedClassName="News" syncable="YES">
-        <attribute name="ga_prefix" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="gaPrefix" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="image_source" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="share_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qaID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="shareURL" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="thumbnail" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dateGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupNews" inverseName="news" inverseEntity="GroupNews" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Abstract" positionX="99" positionY="180" width="128" height="103"/>
-        <element name="News" positionX="331" positionY="173" width="128" height="163"/>
+        <element name="GroupNews" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="News" positionX="-216" positionY="-45" width="128" height="178"/>
     </elements>
 </model>

@@ -2,23 +2,24 @@
 //  News.m
 //  ZhiHuDemo
 //
-//  Created by administrator on 14-2-8.
+//  Created by administrator on 14-2-10.
 //  Copyright (c) 2014年 GSX. All rights reserved.
 //
 
 #import "News.h"
+#import "GroupNews.h"
 
 
 @implementation News
 
-@dynamic thumbnail;
-@dynamic share_url;
+@dynamic gaPrefix;
+@dynamic qaID;
 @dynamic image;
-@dynamic url;
+@dynamic imageSource;
+@dynamic shareURL;
+@dynamic thumbnail;
 @dynamic title;
-@dynamic image_source;
-@dynamic ga_prefix;
-@dynamic id;
-@dynamic relationship;
+@dynamic url;
+@dynamic dateGroup;
 
 @end

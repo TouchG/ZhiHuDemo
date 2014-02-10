@@ -10,8 +10,10 @@
 		77ED3DD3A9564E5892733D06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A0731FEE324257ABD5D3B6 /* libPods.a */; };
 		A711CF2318910A3200D8478D /* QFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A711CF2218910A3200D8478D /* QFDetailViewController.m */; };
 		A716FAAF18A633C200166375 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A716FAAD18A633C200166375 /* Model.xcdatamodeld */; };
-		A716FAB218A6365B00166375 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A716FAB118A6365B00166375 /* News.m */; };
-		A716FAB518A6365C00166375 /* Abstract.m in Sources */ = {isa = PBXBuildFile; fileRef = A716FAB418A6365C00166375 /* Abstract.m */; };
+		A72667C918A8A67200CC950D /* News+Zhihu.m in Sources */ = {isa = PBXBuildFile; fileRef = A72667C818A8A67200CC950D /* News+Zhihu.m */; };
+		A72667CF18A8C2F400CC950D /* GroupNews+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = A72667CE18A8C2F400CC950D /* GroupNews+Creat.m */; };
+		A72667D218A8D0B900CC950D /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A72667D118A8D0B900CC950D /* News.m */; };
+		A72667D518A8D0BA00CC950D /* GroupNews.m in Sources */ = {isa = PBXBuildFile; fileRef = A72667D418A8D0BA00CC950D /* GroupNews.m */; };
 		A76FF63F188FB31100D38B7C /* QFServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A76FF63E188FB31100D38B7C /* QFServerConnection.m */; };
 		A7B1EEE3188E70D800F05F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1EEE2188E70D800F05F30 /* Foundation.framework */; };
 		A7B1EEE5188E70D800F05F30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1EEE4188E70D800F05F30 /* CoreGraphics.framework */; };
@@ -43,10 +45,14 @@
 		A711CF2118910A3200D8478D /* QFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDetailViewController.h; sourceTree = "<group>"; };
 		A711CF2218910A3200D8478D /* QFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDetailViewController.m; sourceTree = "<group>"; };
 		A716FAAE18A633C200166375 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		A716FAB018A6365B00166375 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
-		A716FAB118A6365B00166375 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
-		A716FAB318A6365C00166375 /* Abstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abstract.h; sourceTree = "<group>"; };
-		A716FAB418A6365C00166375 /* Abstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Abstract.m; sourceTree = "<group>"; };
+		A72667C718A8A67200CC950D /* News+Zhihu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "News+Zhihu.h"; sourceTree = "<group>"; };
+		A72667C818A8A67200CC950D /* News+Zhihu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "News+Zhihu.m"; sourceTree = "<group>"; };
+		A72667CD18A8C2F400CC950D /* GroupNews+Creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GroupNews+Creat.h"; sourceTree = "<group>"; };
+		A72667CE18A8C2F400CC950D /* GroupNews+Creat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GroupNews+Creat.m"; sourceTree = "<group>"; };
+		A72667D018A8D0B900CC950D /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		A72667D118A8D0B900CC950D /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		A72667D318A8D0BA00CC950D /* GroupNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupNews.h; sourceTree = "<group>"; };
+		A72667D418A8D0BA00CC950D /* GroupNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupNews.m; sourceTree = "<group>"; };
 		A76FF63D188FB31100D38B7C /* QFServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFServerConnection.h; sourceTree = "<group>"; };
 		A76FF63E188FB31100D38B7C /* QFServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFServerConnection.m; sourceTree = "<group>"; };
 		A76FF641188FCBF800D38B7C /* VersionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionConfig.h; sourceTree = "<group>"; };
@@ -108,11 +114,15 @@
 			children = (
 				A76FF63D188FB31100D38B7C /* QFServerConnection.h */,
 				A76FF63E188FB31100D38B7C /* QFServerConnection.m */,
+				A72667CD18A8C2F400CC950D /* GroupNews+Creat.h */,
+				A72667CE18A8C2F400CC950D /* GroupNews+Creat.m */,
+				A72667C718A8A67200CC950D /* News+Zhihu.h */,
+				A72667C818A8A67200CC950D /* News+Zhihu.m */,
 				A716FAAD18A633C200166375 /* Model.xcdatamodeld */,
-				A716FAB318A6365C00166375 /* Abstract.h */,
-				A716FAB418A6365C00166375 /* Abstract.m */,
-				A716FAB018A6365B00166375 /* News.h */,
-				A716FAB118A6365B00166375 /* News.m */,
+				A72667D018A8D0B900CC950D /* News.h */,
+				A72667D118A8D0B900CC950D /* News.m */,
+				A72667D318A8D0BA00CC950D /* GroupNews.h */,
+				A72667D418A8D0BA00CC950D /* GroupNews.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,13 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72667D218A8D0B900CC950D /* News.m in Sources */,
 				A7B1EEF9188E70D800F05F30 /* QFViewController.m in Sources */,
-				A716FAB518A6365C00166375 /* Abstract.m in Sources */,
-				A716FAB218A6365B00166375 /* News.m in Sources */,
+				A72667D518A8D0BA00CC950D /* GroupNews.m in Sources */,
 				A711CF2318910A3200D8478D /* QFDetailViewController.m in Sources */,
 				A76FF63F188FB31100D38B7C /* QFServerConnection.m in Sources */,
 				A7B1EEEF188E70D800F05F30 /* main.m in Sources */,
 				A7B1EEF3188E70D800F05F30 /* QFAppDelegate.m in Sources */,
+				A72667C918A8A67200CC950D /* News+Zhihu.m in Sources */,
+				A72667CF18A8C2F400CC950D /* GroupNews+Creat.m in Sources */,
 				A716FAAF18A633C200166375 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
